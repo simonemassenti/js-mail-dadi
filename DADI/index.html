@@ -1,13 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dadi</title>
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+    <div class="wrapper">
+        <h1>Sfida il pc con i dadi!</h1>
+
+
+    <div class="container">
+        <div class="dadi">
+            <div class="square">
+                <h2>TU</h2>
+                <img src="img/Cubo-Super-Mario.webp" alt="" id="dadoU">
+                <img src="img/faccia-dado-1.png" alt="" id="dado1" class="d-none">
+                <img src="img/dado-2.png" alt="" id="dado2" class="d-none">
+                <img src="img/faccia-dado-3.png" alt="" id="dado3" class="d-none">
+                <img src="img/dado-4.png" alt="" id="dado4" class="d-none">
+                <img src="img/dado-5.png" alt="" id="dado5" class="d-none">
+                <img src="img/dado-6.png" alt="" id="dado6" class="d-none">
+            </div>
+
+            <div class="square">
+                <h2>PC</h2>
+                <img src="img/Cubo-Super-Mario.webp" alt="" id="dadoPc">
+                <img src="img/faccia-dado-1.png" alt="" id="dado1pc" class="d-none">
+                <img src="img/dado-2.png" alt="" id="dado2pc" class="d-none">
+                <img src="img/faccia-dado-3.png" alt="" id="dado3pc" class="d-none">
+                <img src="img/dado-4.png" alt="" id="dado4pc" class="d-none">
+                <img src="img/dado-5.png" alt="" id="dado5pc" class="d-none">
+                <img src="img/dado-6.png" alt="" id="dado6pc" class="d-none">
+            </div>
+        </div>
+
+
+        <button id="play" class="btn">Gioca</button>
+        <button id="replay" class="btn">Rigioca</button>
+    </div>
+    
+    <h2 id="risultato"></h2>
+    </div>
     
 
     <script src="js/script.js"></script>
 </body>
+
 </html>
