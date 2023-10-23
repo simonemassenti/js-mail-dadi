@@ -4,6 +4,7 @@ const nMax = 6;
 //Bottone Gioca
 const playBtn = document.getElementById("play");
 const replayBtn = document.getElementById("replay");
+replayBtn.classList.add("d-none");
 
 //Dichiarazione vettori che conterranno gli elementi img
 let dicesUserElem = [];
@@ -25,6 +26,7 @@ for (let i = 0; i < nMax; i++) {
 playBtn.addEventListener("click", function () {
     
     playBtn.classList.add("d-none");
+    replayBtn.classList.remove("d-none");
 
     //Numero casuale
     const userNumber = Math.floor(Math.random() * nMax) + 1;
